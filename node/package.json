@@ -1,0 +1,44 @@
+{
+  "name": "@titan-capital-forensics/titan-x402-compliance-sdk",
+  "version": "1.0.0",
+  "description": "Zero-dependency TypeScript/JavaScript client SDK for TITAN Capital Forensics x402 Base USDC gateways",
+  "main": "dist/titan-x402-client.js",
+  "types": "dist/titan-x402-client.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/*.test.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "usdc",
+    "base",
+    "compliance",
+    "einvoicing",
+    "zatca",
+    "peppol",
+    "ofac",
+    "kyt",
+    "mcp",
+    "titan-capital-forensics"
+  ],
+  "author": "TITAN Capital Forensics LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titan-capital-forensics/titan-x402-compliance-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/titan-capital-forensics/titan-x402-compliance-sdk/issues"
+  },
+  "homepage": "https://github.com/titan-capital-forensics/titan-x402-compliance-sdk#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
